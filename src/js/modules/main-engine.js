@@ -42,7 +42,7 @@ class FlashCard {
             }
 
             this.progressArray.push(num);
-            console.log(this.progressArray);
+
             let title = flashcards.flashcard[num - 1].word;
             let translation = flashcards.flashcard[num - 1].translation;
             this.title.innerHTML = flashcards.flashcard[num - 1].word;
