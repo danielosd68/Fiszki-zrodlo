@@ -1,0 +1,154 @@
+{
+    "flashcard": [
+        {
+            "id": "1",
+            "word": "Samolot",
+            "translation": "Airplane"
+        },
+        {
+            "id": "2",
+            "word": "Autokar",
+            "translation": "Coach"
+        },
+        {
+            "id": "3",
+            "word": "Prom",
+            "translation": "Ferry"
+        },
+        {
+            "id": "4",
+            "word": "Helikopter",
+            "translation": "Helicopter"
+        },
+        {
+            "id": "5",
+            "word": "Poduszkowiec",
+            "translation": "Hovercraft"
+        },
+        {
+            "id": "6",
+            "word": "Tramwaj",
+            "translation": "Tram"
+        },
+        {
+            "id": "7",
+            "word": "Metro",
+            "translation": "Underground"
+        },
+        {
+            "id": "8",
+            "word": "Jacht",
+            "translation": "Yacht"
+        },
+        {
+            "id": "9",
+            "word": "Lotnisko",
+            "translation": "Airport"
+        },
+        {
+            "id": "10",
+            "word": "Przystanek autobusowy",
+            "translation": "Bus stop"
+        },
+        {
+            "id": "11",
+            "word": "Dworzec autobusowy",
+            "translation": "Coach station"
+        },
+        {
+            "id": "12",
+            "word": "Autostrada",
+            "translation": "Motorway"
+        },
+        {
+            "id": "13",
+            "word": "Postój taksówek",
+            "translation": "Taxi rank"
+        },
+        {
+            "id": "14",
+            "word": "Bramka biletowa",
+            "translation": "Ticket barrier"
+        },
+        {
+            "id": "15",
+            "word": "Stacja kolejowa",
+            "translation": "Train station"
+        },
+        {
+            "id": "16",
+            "word": "Poczekalnia",
+            "translation": "Waiting room"
+        },
+        {
+            "id": "17",
+            "word": "Karta pokładowa",
+            "translation": "Boarding card"
+        },
+        {
+            "id": "18",
+            "word": "Korek",
+            "translation": "Traffic jam"
+        },
+        {
+            "id": "19",
+            "word": "Kolizja",
+            "translation": "Collide"
+        },
+        {
+            "id": "20",
+            "word": "Ciężarówka",
+            "translation": "Truck"
+        },
+        {
+            "id": "21",
+            "word": "Minimalizować opóźnienia",
+            "translation": "Minimalize any delays"
+        },
+        {
+            "id": "22",
+            "word": "Motocykl",
+            "translation": "Motorbike"
+        },
+        {
+            "id": "23",
+            "word": "Train",
+            "translation": "Pociąg"
+        },
+        {
+            "id": "24",
+            "word": "Peron",
+            "translation": "Platform"
+        },
+        {
+            "id": "25",
+            "word": "Transport publiczny",
+            "translation": "Public transport"
+        },
+        {
+            "id": "26",
+            "word": "Droga",
+            "translation": "Road"
+        },
+        {
+            "id": "27",
+            "word": "Rozkłady jazdy",
+            "translation": "Timetables"
+        },
+        {
+            "id": "28",
+            "word": "Skuter",
+            "translation": "Scooter"
+        },
+        {
+            "id": "29",
+            "word": "Transport morski",
+            "translation": "Sea transport"
+        },
+        {
+            "id": "30",
+            "word": "Traktor",
+            "translation": "Tractor"
+        }
+    ]
+}
