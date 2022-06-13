@@ -4,11 +4,11 @@ import flashcards from '../../data/flashcards.json';
 
 class FlashCard {
     constructor() {
-        this.title = document.querySelector('.flashcard');
+        this.title = document.querySelector('.word');
         this.container = document.querySelector('.content');
         this.progressArray = [];
         let isEnded = false;
-
+        const translationWord = document.querySelector('.translation');
         const random = document.querySelector('.random');
         const howFlash = flashcards.flashcard.length;
         const click = random.addEventListener('click', () => {
@@ -53,12 +53,15 @@ class FlashCard {
                 if (isChecked == false) {
                     if (isEnded == true) {
                         this.changeBgColor('black');
-                        this.title.innerHTML = "Opracowano wszystkie słówka. <br>Gratulacje!";
+                        this.translationWord.innerHTML = "Opracowano wszystkie słówka. <br>Gratulacje!";
                     }
                     else {
                         this.changeBgColor('#454561');
-                        this.title.innerHTML = translation;
+                        this.translationWord.innerHTML = translation;
                         isChecked = true;
+
+                        
+                        
                     }
 
 
@@ -67,7 +70,7 @@ class FlashCard {
                 else {
                     if (isEnded == true) {
                         this.changeBgColor('black')
-                        this.title.innerHTML = "Opracowano wszystkie słówka. <br>Gratulacje!";
+                        this.translationWord.innerHTML = "Opracowano wszystkie słówka. <br>Gratulacje!";
                     }
                     else {
                         this.changeBgColor('black');

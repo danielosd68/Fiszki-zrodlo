@@ -30,6 +30,11 @@ html {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    perspective:300px;
+                    /*-webkit-perspective:300px;*/
+                    
+
+                    
 
                     .flashcard {
                         width: 40%;
@@ -44,6 +49,11 @@ html {
                         user-select: none;
                         cursor: pointer;
                         position: relative;
+                        transition:1s;
+                        -webkit-transition:1s;
+                        transform-style:preserve-3d;
+                        -webkit-transform-style:preserve-3d;
+
 
                         @media only screen and (max-width:1550px) {
                             font-size: 2em;
@@ -63,6 +73,20 @@ html {
                             width: 75%;
                         }
 
+                        .word{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            left:0;
+                            top:0;
+                            border-radius:40px;
+                            backface-visibility:hidden;
+                            -webkit-backface-visibility:hidden;
+                        }
+
 
                         .translation {
                             position: absolute;
@@ -71,8 +95,18 @@ html {
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            left:0;
+                            top:0;
+                            border-radius:40px;
+                            backface-visibility:hidden;
+                            -webkit-backface-visibility:hidden;
                         }
                     }
+
+                    #content:hover > .flashcard {
+                        transform:rotateX(180deg);
+                        -webkit-transform:rotateX(180deg);
+                      }
 
                     .flashcard:focus {
                         outline: none;
